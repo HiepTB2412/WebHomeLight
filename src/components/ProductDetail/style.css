@@ -1,0 +1,152 @@
+.tour__content img {
+  width: 50%;
+    height: 100%;
+    margin-top: 35px;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.tour__info {
+  width: 50%;
+}
+.tour__info,
+.tour__reviews {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229, 231, 235);
+  padding: 2rem;
+}
+
+.tour__info h2 {
+  font-size: 30px;
+}
+
+.tour__info span {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-style: 1rem;
+  color: var(--text-color);
+}
+
+.tour__info span i {
+  color: var(--heading-color);
+  font-size: 1.1rem;
+}
+
+.tour__info h5 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.tour__info p {
+  line-height: 30px;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.rating__group span {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.tour__content {
+  display: flex;
+}
+.row1 {
+  width: 100%;
+}
+.tour_ {
+  display: flex;
+  gap: 100px;
+}
+.tour__extra-details li {
+  float: left;
+  width: 50%;
+  color: #545454;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  margin: 8px 0;
+  padding-left: 15px;
+  border-bottom: #ddd 1px dotted;
+}
+.tour__extra-details li i {
+  margin-right: 5px;
+}
+.add_cart {
+  width: 135px;
+  height: 52px;
+  background: #4ba9dd;
+  border-radius: 30px;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 150px;
+}
+.bought {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.bought h4 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.origin_price {
+  text-decoration: line-through;
+  color: #837e7e;
+}
+.clear {
+  clear: both;
+}
+
+@media (max-width: 768px)  {
+  .tour__content {
+    display: block;
+  }
+  .tour__content img {
+    width: 100%;
+  }
+  .tour__info {
+    width: 100%;
+    padding: 10px;
+  } 
+  .container_detail {
+    width: 100%;
+    max-width: 100%;
+  }
+  .bought{
+    overflow: hidden;
+  }
+  .bought h4 {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .tour__extra-details {
+    padding-left: 0;
+  } 
+  .tour__extra-details li {
+    padding-left: 0;
+  } 
+  .container_moblie {
+    max-width:70%;
+  }
+  .cartControl_ {
+    margin: 0;
+  }
+  .cartControl  {
+    margin: 0;
+  }
+  .bought h4 {
+    font-size: 16px;
+  }
+  .tour__info h5  {
+    font-size: 18px;
+  }
+  .tour__info p {
+    font-size: 14px;
+  }
+}
